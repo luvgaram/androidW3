@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="TextView" />
+    
+    <Button
+        android:id="@+id/main_button_simple_list1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/main_button_custom_list"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="39dp"
+        android:text="Button1" />
+
+    <Button
+        android:id="@+id/main_button_simple_list2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/main_button_simple_list1"
+        android:layout_marginTop="58dp"
+        android:text="Button2" />
+\
+
+    <Button
+        android:id="@+id/main_button_custom_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/main_button_simple_list2"
+        android:layout_below="@+id/main_button_simple_list2"
+        android:layout_marginTop="100dp"
+        android:text="ButtonC" />
+
+</RelativeLayout>
